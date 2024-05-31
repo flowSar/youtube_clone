@@ -1,0 +1,141 @@
+ header {
+     height: 70px;
+     background-color: white;
+     border: 1px solid black;
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+
+.left_side {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.burger_icon {
+    height: 28px;
+    margin-right: 17px;
+    border-radius: 24px;
+    padding: 5px;
+
+}
+.burger_icon:hover {
+    background-color: rgb(222, 222, 220);
+}
+.youtube_logo_icon {
+    height: 28px;
+}
+
+.middle_side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.right_side {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+.notifications_icon_container {
+    height: 35px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 22px;
+    padding: 4px;
+
+}
+.notifications_icon_container:hover {
+    background-color: rgb(222, 222, 220);
+}
+
+.upload_icon {
+    height: 35px;
+    border-radius: 20px;
+    padding: 4px;
+    padding-left: 6px;
+}
+.upload_icon:hover {
+    background-color: rgb(222, 222, 220);
+}
+
+.notifications_icon {
+    height: 35px;
+
+}
+.profile_icon {
+    height: 35px;
+    border-radius: 22px;
+    padding: 4px;
+}
+
+.search_bar {
+    width: 600px;
+    height: 45px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid gray;
+    border-right: none;
+    padding-left:15px;
+    font-size: 16px;
+}
+.search_bar::placeholder {
+    font-family: roboto;
+    font-size: 17px;
+}
+.search_bar:focus {
+    border: 2px solid lightblue;
+    outline: 2px solid lightblue; 
+}
+
+.btn_search {
+    height: 45px;
+    width: 55px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid gray;
+    background-color: rgb(242, 242, 240);
+
+}
+.btn_search:hover {
+    background-color: rgb(222, 222, 220);
+}
+.btn_search_icon {
+    height: 30px;
+
+}
+
+.btn_search_voice {
+    height: 45px;
+    margin-left: 15px;
+    border-radius: 23px;
+    border: 1px solid gray;
+    background-color: rgb(242, 242, 240);
+}
+.btn_search_voice:hover {
+    background-color: rgb(222, 222, 220);
+}
+
+.btn_search_voice_icon {
+    height: 26px;
+    width: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
