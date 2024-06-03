@@ -100,7 +100,20 @@ nav.side_bar::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 
-/*---------------side bar secetion two--------------*/
+/*---------------side bar secetion three--------------*/
 .side_bar_section_three img {
     border-radius: 22px;
+}
+.side_bar_section_three{
+    border-bottom: 1px solid black;
+}
+
+/*---------------side bar secetion four--------------------*/
+.side_bar_section_four {
+    border-bottom: 1px solid black;
+}
+
+/*---------------side bar secetion five--------------------*/
+.side_bar_section_five {
+    border-bottom: 1px solid black;
 }
