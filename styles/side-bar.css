@@ -4,12 +4,22 @@ nav {
     top: 70px;;
     bottom: 0;
     left: 0;
-    border-right: 1px solid gray;
-    
-} 
+    overflow-y: hidden;
+}
+
+nav.side_bar:hover {
+    width: 230px;
+    overflow-y: scroll;
+}
+nav.side_bar::-webkit-scrollbar {
+    width: 6px;
+}
+nav.side_bar::-webkit-scrollbar-thumb{
+    background: rgb(99, 99, 98);
+}
 .side_bar_section_one {
     padding: 10px;
-    border-bottom: 1px solid rgb(232, 232, 225);
+    border-bottom: 1px solid gray;
 }
 .home_icon_container,
 .subscription_icon_container,
@@ -53,8 +63,44 @@ nav {
     border-radius: 10px;
 }
 
+.side_bar_icon_container img {
+    height: 25px;
+}
+.side_bar_icon_container div
+{
+    font-weight: 500;
+    margin: 20px;
+    font-size: 14px;
+}
+.side_bar_icon_container {
+    padding-left: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
 
+/*---------------side bar secetion two--------------*/
 
+.side_bar_section_two {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.you_icon_container{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+}
+.you_icon_container:hover{
+    background-color: rgb(240, 240, 233);
+    border-radius: 10px;
+}
 
+.side_bar_icon_container:hover {
+    background-color: rgb(240, 240, 233);
+    border-radius: 10px;
+}
 
-
+/*---------------side bar secetion two--------------*/
+.side_bar_section_three img {
+    border-radius: 22px;
+}
