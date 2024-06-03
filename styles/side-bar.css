@@ -93,11 +93,14 @@ nav.side_bar::-webkit-scrollbar-thumb{
 .you_icon_container:hover{
     background-color: rgb(240, 240, 233);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .side_bar_icon_container:hover {
     background-color: rgb(240, 240, 233);
     border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
 }
 
 /*---------------side bar secetion three--------------*/

@@ -1,1 +1,36 @@
- 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.video-info-container {
+    height: 290px;
+    background-color: lightblue;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.thumbnail-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.author-profile {
+    margin: 8px 10px 8px 0;
+    height: 40px;
+    border-radius: 40px;
+}
+.video-info {
+    display: flex;
+    
+}
+.video-title {
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.author-name {
+    padding-bottom: 6px;
+}
+.video-title {
+/*     padding: 15px; */
+}
