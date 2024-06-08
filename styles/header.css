@@ -145,7 +145,24 @@
 .profile_icon:hover {
     cursor: pointer;
 }
+.notifications_icon_container {
+    position: relative;
+}
 
+.notification-number {
+    color: white;
+    background-color: rgb(214, 30, 30);
+    padding: 3px;
+    width: 13px;
+    font-size: 11px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    border-radius: 14px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
 
 
 

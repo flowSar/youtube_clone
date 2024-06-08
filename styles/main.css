@@ -4,7 +4,6 @@ main {
 }
 .video-info-container {
     height: 290px;
-    background-color: lightblue;
     margin-right: 20px;
     margin-bottom: 25px;
 }
@@ -14,7 +13,7 @@ main {
 
 .thumbnail-image {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 14px;
 }
 .thumbnail-container {
     position: relative;
