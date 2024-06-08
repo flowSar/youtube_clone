@@ -98,6 +98,37 @@
     height: 26px;
     width: 32px;
 }
+.search-button-container,
+.search-voice-btn-container
+{
+    position: relative;
+}
+
+.search-button-container:hover .search-popup,
+.search-voice-btn-container:hover .search-voice-popup
+{
+    opacity: 1;
+}
+
+.search-button-container .search-popup,
+.search-voice-btn-container .search-voice-popup
+{
+    background-color: rgb(150, 150, 150);
+    color: white;
+    padding : 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    text-align: center;
+}
+.search-voice-btn-container .search-voice-popup {
+    width: 130px;
+    left: -30px;
+}
 
 /* -------------- right side------------ */
 
