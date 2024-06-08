@@ -127,5 +127,25 @@ nav.side_bar::-webkit-scrollbar-thumb{
 }
 /*-----------------side bar section six--------------------*/
 .side_bar_section_six {
+    border-bottom: 1px solid rgb(227, 227, 224);
     padding: 10px;
+}
+/*-----------------side bar section six--------------------*/
+.side_bar_section_seven {
+    padding: 20px 10px 10px 20px;
+
+    font-size: 13px;
+    color: #606060;
+
+}
+.side_bar_section_seven a {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.side_bar_section_seven p {
+    color: #909090;
+}
+.side_bar_section_seven a:hover {
+    cursor: pointer;
 }
