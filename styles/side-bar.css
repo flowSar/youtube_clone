@@ -102,7 +102,16 @@ nav.side_bar::-webkit-scrollbar-thumb{
     cursor: pointer;
     transition: background 0.2s;
 }
-
+.side-list-title {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+}
+.side_bar_icon_container .you_title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 0;
+}
 /*---------------side bar secetion three--------------*/
 .side_bar_section_three img {
     border-radius: 22px;
