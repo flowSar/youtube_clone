@@ -19,7 +19,7 @@ nav.side_bar::-webkit-scrollbar-thumb{
 }
 .side_bar_section_one {
     padding: 10px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(227, 227, 224);
 }
 .home_icon_container,
 .subscription_icon_container,
@@ -49,19 +49,12 @@ nav.side_bar::-webkit-scrollbar-thumb{
     background-color: rgb(240, 240, 233);
     border-radius: 10px;
 }
-
-.home_icon_container:hover {
+.side_bar_section_one div:hover {
     background-color: rgb(232, 232, 225);
     border-radius: 10px;
+    cursor: pointer;
 }
-.shorts_icon_container:hover{
-    background-color: rgb(240, 240, 233);
-    border-radius: 10px;
-}
-.subscription_icon_container:hover {
-    background-color: rgb(240, 240, 233);
-    border-radius: 10px;
-}
+
 
 .side_bar_icon_container img {
     height: 25px;
@@ -83,7 +76,7 @@ nav.side_bar::-webkit-scrollbar-thumb{
 
 .side_bar_section_two {
     padding: 10px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(227, 227, 224);
 }
 .you_icon_container{
     font-weight: 600;
@@ -117,19 +110,19 @@ nav.side_bar::-webkit-scrollbar-thumb{
     border-radius: 22px;
 }
 .side_bar_section_three{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(227, 227, 224);
     padding: 10px;
 }
 
 /*---------------side bar secetion four--------------------*/
 .side_bar_section_four {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(227, 227, 224);
     padding: 10px;
 }
 
 /*---------------side bar secetion five--------------------*/
 .side_bar_section_five {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(227, 227, 224);
     padding: 10px;
 }
 /*-----------------side bar section six--------------------*/

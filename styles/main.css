@@ -8,26 +8,50 @@ main {
     margin-right: 20px;
     margin-bottom: 25px;
 }
+.video-info-container:hover {
+    cursor: pointer;
+}
 
 .thumbnail-image {
     width: 100%;
     border-radius: 20px;
 }
+.thumbnail-container {
+    position: relative;
+}
+.video-duration {
+    background-color: rgba(61, 61, 60, 1);
+    height: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    font-size: 11px;
+    color: white;
+    padding: 3px 4px 3px 4px;
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+}
 
 .author-profile {
     margin: 8px 10px 8px 0;
-    height: 40px;
-    border-radius: 40px;
+    height: 35px;
+    border-radius: 45px;
 }
 .video-info {
     display: flex;
-    
+
+}
+.more-about-video {
+    padding-top: 10px;
+    height: 20px;
+    margin-left: auto;
 }
 .video-title {
     font-weight: 600;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .author-name {
     padding-bottom: 6px;
 }

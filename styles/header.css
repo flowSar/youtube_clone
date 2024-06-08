@@ -1,7 +1,7 @@
  header {
-     height: 70px;
+     height: 66px;
      background-color: white;
-     border: 1px solid black;
+     border: 1px solid rgb(227, 227, 224);
      position: fixed;
      top: 0;
      right: 0;
@@ -18,6 +18,9 @@
     margin-left: 15px;
     display: flex;
     align-items: center;
+}
+.left_side:hover {
+    cursor: pointer;
 }
 
 .burger_icon {
@@ -72,6 +75,7 @@
 }
 .btn_search:hover {
     background-color: rgb(222, 222, 220);
+    cursor: pointer;
 }
 .btn_search_icon {
     height: 30px;
@@ -87,6 +91,7 @@
 }
 .btn_search_voice:hover {
     background-color: rgb(222, 222, 220);
+    cursor: pointer;
 }
 
 .btn_search_voice_icon {
@@ -104,37 +109,42 @@
 
 
 .notifications_icon_container {
-    height: 35px;
-    margin-right: 20px;
-    margin-left: 20px;
+    height: 28px;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 22px;
     padding: 4px;
 
 }
 .notifications_icon_container:hover {
     background-color: rgb(222, 222, 220);
+    cursor: pointer;
 }
 
 .upload_icon {
-    height: 35px;
+    height: 28px;
     border-radius: 20px;
     padding: 4px;
     padding-left: 6px;
 }
 .upload_icon:hover {
     background-color: rgb(222, 222, 220);
+    cursor: pointer;
 }
 
 .notifications_icon {
-    height: 35px;
+    height: 28px;
 
 }
 .profile_icon {
-    height: 35px;
+    height: 28px;
     border-radius: 22px;
     padding: 4px;
 }
 
+.profile_icon:hover {
+    cursor: pointer;
+}
 
 
 
