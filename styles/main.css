@@ -1,4 +1,4 @@
-main {
+.video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -57,20 +57,20 @@ main {
 
 @media (max-width: 990px)
 {
-    main {
+    .video-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 991px) and (max-width: 1297px)
 {
-    main {
+    .video-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media (min-width: 1298px)
 {
-    main {
+    .video-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
